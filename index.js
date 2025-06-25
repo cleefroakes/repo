@@ -40,10 +40,5 @@ app.post('/lecturers', async (req, res) => {
   res.status(201).json(lecturer);
 });
 
+// Start server
 app.listen(port, () => console.log(`API running on http://localhost:${port}`));
-const express = require('express');
-const mongoose = require('mongoose');
-require('dotenv').config();
-
-
-//localhost:27017/university
